@@ -1,10 +1,3 @@
-var botonAdicional = document.querySelector("#adicionar-paciente");
-
-botonAdicional.addEventListener("click", function(event){
-    event.preventDefault();
-    console.log("Hiciste click en adicionar")
-})
-
 var pacientes = document.querySelectorAll(".paciente");
 
 
